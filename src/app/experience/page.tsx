@@ -21,9 +21,20 @@ const experiences = [
     linkedin: "https://www.linkedin.com/company/milwaukee-tool",
     logo: "/company-logos/milwaukee-tool.jpeg",
     bullets: [
-      "Programmed and debugged medium and high torque motor control boards in embedded C.",
-      "Worked through PWM control strategies for three-phase brushless motors.",
-      "Supported safety and reliability testing for motor control systems.",
+      "Program and debug medium and high torque motor control boards using embedded C, troubleshooting PWM control strategies for three-phase brushless motors",
+      "Design comprehensive three-phase motor control test plans to ensure technology safety and reliability",
+    ],
+  },
+  {
+    title: "Data Structures Peer Mentor",
+    company: "CDIS @ UW-Madison",
+    period: "August 2025 – December 2025",
+    location: "Madison, WI",
+    linkedin: "https://www.linkedin.com/school/university-of-wisconsin-madison",
+    logo: "/company-logos/cdis.jpeg",
+    bullets: [
+      "Mentored 600+ students on complex data structure concepts (Lists, Stacks, Queues, Trees) and algorithmic complexity",
+      "Collaborated with course staff to adapt course content based on student needs and maintain course relevance",
     ],
   },
   {
@@ -34,9 +45,8 @@ const experiences = [
     linkedin: "https://www.linkedin.com/company/cribl",
     logo: "/company-logos/cribl.jpeg",
     bullets: [
-      "Designed a distributed Time-to-Live logging feature using TypeScript and Node.js.",
-      "Completed product bug fixes involving TypeScript, Node.js, and TLS.",
-      "Strengthened backend and systems debugging experience in a production environment.",
+      "Designed a distributed Time-to-Live (TTL) logging feature using TypeScript and Node.js, directly addressing critical customer needs while optimizing log storage costs for the company",
+      "Completed various bug tickets using TypeScript, Node.js, TLS, ensuring system stability and overall product reliability",
     ],
   },
   {
@@ -47,8 +57,8 @@ const experiences = [
     linkedin: "https://www.linkedin.com/school/university-of-wisconsin-madison",
     logo: "/company-logos/cdis.jpeg",
     bullets: [
-      "Developed Python tooling to convert time-of-flight sensor data into computer vision datasets.",
-      "Integrated VL53L0X sensors to improve low-cost robot perception workflows.",
+      "Developed Python programs to process time-of-flight sensor data into computer vision datasets, streamlining dataset generation for ML training",
+      "Integrated VL53L0X time-of-flight sensors to enhance inexpensive robot perception",
     ],
   },
   {
@@ -59,8 +69,8 @@ const experiences = [
     linkedin: "https://www.linkedin.com/school/university-of-wisconsin-madison",
     logo: "/company-logos/wisconsin.jpeg",
     bullets: [
-      "Built an ESP-32 based agricultural monitoring device with VL53L0X sensing over I2C.",
-      "Developed C++ firmware and Python analysis code for insect biomarker research.",
+      "Designed a low-cost agricultural monitoring device using a ESP-32 microcontroller with a VL53L0X time-of-flight sensor interfaced via I2C",
+      "Developed ESP-32 firmware (C++) for data collection and Python programs for insect biomarker analysis",
     ],
   },
 ];

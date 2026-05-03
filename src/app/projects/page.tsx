@@ -6,8 +6,8 @@ const projects = [
     stack: "Verilog, SystemVerilog, Digital Design, FPGA",
     github: "https://github.com/nachiketkerai1/eBike-controller-ece551",
     bullets: [
-      "Designed and implemented a complete digital controller for a brushless DC motor eBike system using SystemVerilog.",
-      "Built a comprehensive testbench covering SPI interfaces, cadence simulation, torque seeding, and low-battery thresholds.",
+      "Designed and implemented a complete digital controller for a brushless DC motor eBike system using SystemVerilog",
+      "Developed a comprehensive testbench verifying SPI interfaces, cadence simulation, torque seeding, and low-battery thresholds",
     ],
   },
   {
@@ -15,9 +15,9 @@ const projects = [
     stack: "Verilog, Computer Architecture",
     github: "https://github.com/nachiketkerai1/ECE552-Project3",
     bullets: [
-      "Designed a 5-stage 32-bit RISC-V processor with hazard detection, data forwarding, branch handling, and stall or flush control.",
-      "Implemented an instruction decoder supporting the major RV32I instruction formats.",
-      "Developed pipeline control logic for data and control hazards.",
+      "Designed a 5-stage pipelined 32-bit RISC-V processor with hazard detection, data forwarding, and branch prediction",
+      "Implemented instruction decoder for 6 formats (R/I/S/B/U/J-type) supporting 37 RV32I instructions",
+      "Developed pipeline control logic with stall/flush mechanisms for control hazards",
     ],
   },
   {
@@ -25,17 +25,17 @@ const projects = [
     stack: "Python, CuPy, CUDA, SLURM, NumPy",
     github: "https://github.com/nachiketkerai1/NLOS-python-implementation",
     bullets: [
-      "Accelerated a non-line-of-sight image reconstruction pipeline by porting FFT and convolution-heavy work from NumPy to CuPy.",
-      "Used SLURM batch workflows to run the GPU-based pipeline on an HPC cluster.",
+      "Accelerated a Non-Line-of-Sight (NLOS) image reconstruction algorithm by porting computationally intensive operations (FFTs, convolutions) from NumPy to CuPy",
+      "Leveraged CUDA based GPU parallelization by writing SLURM scripts to manage and execute batch jobs on a high-performance computing (HPC) cluster",
     ],
   },
   {
-    title: "Press Your Luck Embedded Game",
+    title: "Press-your-Luck Embedded Game",
     stack: "C, freeRTOS, ARM Cortex-M, I2C, UART",
     github: "https://github.com/nachiketkerai1/PressYourLuck-ARM-Cortex-M",
     bullets: [
-      "Built firmware and device drivers for an ARM Cortex-M system with joystick, buttons, and LCD peripherals.",
-      "Used freeRTOS task scheduling to coordinate game logic, display updates, and input handling.",
+      "Programmed bare-metal device drivers and firmware for an I2C LCD and GPIO peripherals (joystick, buttons) on an ARM Cortex-M microcontroller",
+      "Implemented freeRTOS task scheduling with priority queues for game logic, display updates, and user input handling",
     ],
   },
   {
@@ -43,17 +43,8 @@ const projects = [
     stack: "Node.js, Express.js, MySQL, HTML/CSS",
     github: "https://github.com/nachiketkerai1/StayWellNYC",
     bullets: [
-      "Built a full-stack web application for exploring NYC properties backed by a MySQL database.",
-      "Implemented backend routes for listing filters, host views, renter history, and review submission workflows.",
-    ],
-  },
-  {
-    title: "FUSE Filesystem",
-    stack: "C, UNIX, Filesystems, RAID",
-    github: "https://github.com/nachiketkerai1/FUSE-FS",
-    bullets: [
-      "Implemented a userspace filesystem with FUSE supporting RAID 0 striping and RAID 1 mirroring.",
-      "Built core file and directory operations that reinforced low-level systems and storage concepts.",
+      "Engineered a full-stack web application using Node.js and Express.js to query a MySQL database and find NYC properties based on filters like borough, guest count, and rating",
+      "Implemented backend routes to handle GET/POST requests for submitting reviews, viewing all properties for a specific host, and registering/viewing previous renters for a listing",
     ],
   },
 ];
