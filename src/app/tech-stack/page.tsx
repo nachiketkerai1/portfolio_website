@@ -5,19 +5,19 @@ const technologySections = [
   },
   {
     title: "Technologies",
-    items: ["freeRTOS", "Node.js", "UNIX", "MySQL", "ROS2"],
+    items: ["freeRTOS", "Node.js", "UNIX", "MySQL", "ROS2", "CUDA", "CuPy"],
   },
   {
-    title: "Design and Verification Tools",
+    title: "HW Tools",
     items: ["Quartus Prime", "ModelSim", "Altium", "IAR"],
   },
   {
-    title: "Compute and Workflow Tools",
-    items: ["Git", "Bash", "CUDA", "CuPy", "SLURM", "Oscilloscope", "Picoscope"],
+    title: "Programming Tools",
+    items: ["Git", "Bash", "SLURM"],
   },
 ];
 
-export default function AboutPage() {
+export default function TechStackPage() {
   return (
     <section className="page-shell">
       <div className="page-stack page-stack-wide">
